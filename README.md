@@ -1,3 +1,3 @@
 ## trying-gt-24
 
-This is the repository for a very e
+This is really just me trying to keep up with Andrew's pace
