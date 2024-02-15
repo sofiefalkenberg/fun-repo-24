@@ -3,7 +3,8 @@
 library(tidyverse)
 library(boilrdata)
 
-marsupialsTibble <- as_tibble(marsupials)  %>% filter(Genus == "Planigale")
+marsupialsTibble <- as_tibble(marsupials) %>% filter(Genus == "Antechinus")
+
 
 summary(lm(MaxLifeSpan ~ Mass, data = marsupialsTibble))
 ggplot(marsupialsTibble, aes(y = MaxLifeSpan, x = Mass)) +
